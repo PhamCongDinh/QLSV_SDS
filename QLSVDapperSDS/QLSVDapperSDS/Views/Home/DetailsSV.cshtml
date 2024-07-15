@@ -1,0 +1,69 @@
+﻿@model QLSVDapperSDS.ViewModels.SinhVienMonHoc
+
+@{
+    ViewData["Title"] = "Chi tiết sinh viên";
+}
+
+
+<h1>Chi tiết sinh viên</h1>
+
+<div>
+    <h4>Sinh viên</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Mã sinh viên</dt>
+        <dd class="col-sm-10">@Model.SinhVienRes.MaSinhVien</dd>
+        <dt class="col-sm-2">Tên sinh viên</dt>
+        <dd class="col-sm-10">@Model.SinhVienRes.TenSinhVien</dd>
+        <dt class="col-sm-2">Ngày sinh</dt>
+        <dd class="col-sm-10">@Model.SinhVienRes.NgayThangNamSinh</dd>
+        <dt class="col-sm-2">Giới tính</dt>
+        <dd class="col-sm-10">
+            @if (Model.SinhVienRes.GioiTinh == 1)
+            {
+                <text>Nam</text>
+            }
+            else if (Model.SinhVienRes.GioiTinh == 0)
+            {
+                <text>Nữ</text>
+            }
+        </dd>
+        <dt class="col-sm-2">Lớp</dt>
+        <dd class="col-sm-10">@Model.SinhVienRes.Lops?.TenLop</dd>
+        <dt class="col-sm-2">Khóa</dt>
+        <dd class="col-sm-10">@Model.SinhVienRes.Khoas?.TenKhoas</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.SinhVienRes.Id">Sửa</a> |
+    <a asp-action="Index">Trở lại danh sách</a>
+</div>
+<h2>Danh sách các môn đã đăng ký</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã môn học</th>
+            <th>Tên Môn Học</th>
+            <th>Số Tiết Học</th>
+            @* <th>Điểm quá trình</th>
+            <th>Điểm thành phần</th> *@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var diem in Model.DiemRes)
+        {
+            <tr>
+                <td>@diem.MonHoc.MaMonHoc</td>
+                <td>@diem.MonHoc.TenMonHoc</td>
+                <td>@diem.MonHoc.SoTietHoc</td>
+                @* <td>@(diem.DiemQuaTrinh == 0 ? "Trống" : diem.DiemQuaTrinh.ToString())</td>
+                <td>@(diem.DiemThanhPhan == 0 ? "Trống" : diem.DiemThanhPhan.ToString())</td> *@
+                <td>
+                    <a asp-action="Details" asp-controller="Diem" asp-route-id="@diem.Id" style="color:yellow">Chi Tiết</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

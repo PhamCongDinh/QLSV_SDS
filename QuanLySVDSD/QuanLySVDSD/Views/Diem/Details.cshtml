@@ -1,0 +1,47 @@
+﻿@model QuanLySVDSD.Models.DTORead.DiemDTOR
+@{
+    ViewData["Title"] = "Chi tiết điểm";
+}
+@{
+    decimal diemTongKet;
+    if (Model.MonHoc.SoTietHoc < 30)
+    {
+        diemTongKet = Model.DiemQuaTrinh * 0.4m + Model.DiemThanhPhan * 0.6m;
+    }
+    else
+    {
+        diemTongKet = Model.DiemQuaTrinh * 0.5m + Model.DiemThanhPhan * 0.5m;
+    }
+    string status;
+    if (diemTongKet < 4)
+    {
+        status = "Chưa hoàn thành học phần";
+    }
+    else
+    {
+        status = "Hoàn thành học phần";
+    }
+}
+
+<h1>Chi tiết môn học @Model.MonHoc.TenMonHoc</h1>
+<h2>Sinh viên : @Model.SinhVien.TenSinhVien - @Model.SinhVien.MaSinhVien</h2>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Mã môn học</dt>
+        <dd class="col-sm-10">@Model.MonHoc.MaMonHoc</dd>
+        <dt class="col-sm-2">Điểm quá trình</dt>
+        <dd class="col-sm-10">@(Model.DiemQuaTrinh == 0 ? "Trống" : Model.DiemQuaTrinh.ToString())</dd>
+        <dt class="col-sm-2">Điểm thành phần</dt>
+        <dd class="col-sm-10">@(Model.DiemThanhPhan==0?"Trống":Model.DiemThanhPhan.ToString())</dd>
+        <dt class="col-sm-2">Điểm Tổng kết</dt>
+        <dd class="col-sm-10">@(diemTongKet==0?"Trống":diemTongKet.ToString())</dd>
+        <dt class="col-sm-2">Trạng thái</dt>
+        <dd class="col-sm-10" style="color: @(diemTongKet < 4 ? "red" : "green")">@status</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Sửa</a> |
+    <a asp-action="Details" asp-controller="SinhVien" asp-route-id="@Model.SinhVien.Id">Trở lại danh sách</a>
+</div>

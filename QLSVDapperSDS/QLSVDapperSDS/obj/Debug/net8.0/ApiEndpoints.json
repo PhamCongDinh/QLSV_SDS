@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "QLSVDapperSDS.Controllers.API.DiemsController",
+    "Method": "GetdiembySV",
+    "RelativePath": "api/Diems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "svid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLSVDapperSDS.Controllers.API.LopController",
+    "Method": "Post",
+    "RelativePath": "api/Lop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lopreq",
+        "Type": "QLSVDapperSDS.Models.DTOReq.LopReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLSVDapperSDS.Controllers.API.LopController",
+    "Method": "Put",
+    "RelativePath": "api/Lop",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "lopReq",
+        "Type": "QLSVDapperSDS.Models.DTOReq.LopReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLSVDapperSDS.Controllers.API.SinhViensController",
+    "Method": "GetAll",
+    "RelativePath": "api/SinhViens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLSVDapperSDS.Controllers.API.SinhViensController",
+    "Method": "Post",
+    "RelativePath": "api/SinhViens",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sinhVienReq",
+        "Type": "QLSVDapperSDS.Models.DTOReq.SinhVienReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLSVDapperSDS.Controllers.API.SinhViensController",
+    "Method": "getbyid",
+    "RelativePath": "api/SinhViens/getbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

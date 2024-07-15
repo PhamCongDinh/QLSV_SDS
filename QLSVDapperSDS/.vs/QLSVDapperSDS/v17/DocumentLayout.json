@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SDS\\QLSVDapperSDS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|c:\\sds\\qlsvdappersds\\qlsvdappersds\\controllers\\diemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|solutionrelative:qlsvdappersds\\controllers\\diemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|c:\\sds\\qlsvdappersds\\qlsvdappersds\\views\\diem\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|solutionrelative:qlsvdappersds\\views\\diem\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|c:\\sds\\qlsvdappersds\\qlsvdappersds\\views\\diem\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|solutionrelative:qlsvdappersds\\views\\diem\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|c:\\sds\\qlsvdappersds\\qlsvdappersds\\reposirories\\diemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|solutionrelative:qlsvdappersds\\reposirories\\diemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|c:\\sds\\qlsvdappersds\\qlsvdappersds\\services\\diemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|solutionrelative:qlsvdappersds\\services\\diemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|c:\\sds\\qlsvdappersds\\qlsvdappersds\\views\\home\\detailssv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|solutionrelative:qlsvdappersds\\views\\home\\detailssv.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|c:\\sds\\qlsvdappersds\\qlsvdappersds\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|solutionrelative:qlsvdappersds\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|c:\\sds\\qlsvdappersds\\qlsvdappersds\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|solutionrelative:qlsvdappersds\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|c:\\sds\\qlsvdappersds\\qlsvdappersds\\viewmodels\\sinhvienmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7610DAB6-D28D-47F3-854D-DAD26C7B192F}|QLSVDapperSDS\\QLSVDapperSDS.csproj|solutionrelative:qlsvdappersds\\viewmodels\\sinhvienmonhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 180,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Views\\Diem\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLSVDapperSDS\\Views\\Diem\\Edit.cshtml",
+              "ToolTip": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Views\\Diem\\Edit.cshtml",
+              "RelativeToolTip": "QLSVDapperSDS\\Views\\Diem\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T02:04:25.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiemController.cs",
+              "DocumentMoniker": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Controllers\\DiemController.cs",
+              "RelativeDocumentMoniker": "QLSVDapperSDS\\Controllers\\DiemController.cs",
+              "ToolTip": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Controllers\\DiemController.cs",
+              "RelativeToolTip": "QLSVDapperSDS\\Controllers\\DiemController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:41:04.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Views\\Diem\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLSVDapperSDS\\Views\\Diem\\Details.cshtml",
+              "ToolTip": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Views\\Diem\\Details.cshtml",
+              "RelativeToolTip": "QLSVDapperSDS\\Views\\Diem\\Details.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAC8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T01:48:48.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiemRepository.cs",
+              "DocumentMoniker": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Reposirories\\DiemRepository.cs",
+              "RelativeDocumentMoniker": "QLSVDapperSDS\\Reposirories\\DiemRepository.cs",
+              "ToolTip": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Reposirories\\DiemRepository.cs",
+              "RelativeToolTip": "QLSVDapperSDS\\Reposirories\\DiemRepository.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:55:17.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DiemService.cs",
+              "DocumentMoniker": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Services\\DiemService.cs",
+              "RelativeDocumentMoniker": "QLSVDapperSDS\\Services\\DiemService.cs",
+              "ToolTip": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Services\\DiemService.cs",
+              "RelativeToolTip": "QLSVDapperSDS\\Services\\DiemService.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAADwv0oAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:44:29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetailsSV.cshtml",
+              "DocumentMoniker": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Views\\Home\\DetailsSV.cshtml",
+              "RelativeDocumentMoniker": "QLSVDapperSDS\\Views\\Home\\DetailsSV.cshtml",
+              "ToolTip": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Views\\Home\\DetailsSV.cshtml",
+              "RelativeToolTip": "QLSVDapperSDS\\Views\\Home\\DetailsSV.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T01:35:18.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLSVDapperSDS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLSVDapperSDS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T01:16:45.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QLSVDapperSDS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QLSVDapperSDS\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwCMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:18:38.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SinhVienMonHoc.cs",
+              "DocumentMoniker": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\ViewModels\\SinhVienMonHoc.cs",
+              "RelativeDocumentMoniker": "QLSVDapperSDS\\ViewModels\\SinhVienMonHoc.cs",
+              "ToolTip": "C:\\SDS\\QLSVDapperSDS\\QLSVDapperSDS\\ViewModels\\SinhVienMonHoc.cs",
+              "RelativeToolTip": "QLSVDapperSDS\\ViewModels\\SinhVienMonHoc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:30:38.123Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

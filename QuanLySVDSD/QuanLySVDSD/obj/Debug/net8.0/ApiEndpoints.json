@@ -1,0 +1,134 @@
+[
+  {
+    "ContainingType": "QuanLySVDSD.Controllers.API.DiemsController",
+    "Method": "Post",
+    "RelativePath": "api/Diems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "diemDTOCr",
+        "Type": "QuanLySVDSD.Models.DTOCreate.DiemDTOCr",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLySVDSD.Controllers.API.DiemsController",
+    "Method": "Put",
+    "RelativePath": "api/Diems",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "diemDTOUp",
+        "Type": "QuanLySVDSD.Models.DTOUpdate.DiemDTOUp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLySVDSD.Controllers.API.DiemsController",
+    "Method": "getbyid",
+    "RelativePath": "api/Diems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLySVDSD.Controllers.KhoasController",
+    "Method": "getall",
+    "RelativePath": "api/Khoas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLySVDSD.Controllers.KhoasController",
+    "Method": "post",
+    "RelativePath": "api/Khoas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "khoas",
+        "Type": "QuanLySVDSD.Models.DTO.Khoas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLySVDSD.Controllers.KhoasController",
+    "Method": "put",
+    "RelativePath": "api/Khoas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "khoas",
+        "Type": "QuanLySVDSD.Models.DTO.Khoas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLySVDSD.Controllers.API.MonHocsController",
+    "Method": "Post",
+    "RelativePath": "api/MonHocs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "monHoc",
+        "Type": "QuanLySVDSD.Models.DTO.MonHoc",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLySVDSD.Controllers.API.SinhViensController",
+    "Method": "Post",
+    "RelativePath": "api/SinhViens",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sinhVien",
+        "Type": "QuanLySVDSD.Models.DTO.SinhVien",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuanLySVDSD.Controllers.API.SinhViensController",
+    "Method": "GetAll",
+    "RelativePath": "api/SinhViens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\HibernateMapping\Diem.hbm.xml" />
+    <None Remove="Models\HibernateMapping\Khoas.hbm.xml" />
+    <None Remove="Models\HibernateMapping\Lop.hbm.xml" />
+    <None Remove="Models\HibernateMapping\MonHoc.hbm.xml" />
+    <None Remove="Models\HibernateMapping\SinhVien.hbm.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Models\HibernateMapping\Diem.hbm.xml" />
+    <EmbeddedResource Include="Models\HibernateMapping\Khoas.hbm.xml" />
+    <EmbeddedResource Include="Models\HibernateMapping\Lop.hbm.xml" />
+    <EmbeddedResource Include="Models\HibernateMapping\MonHoc.hbm.xml" />
+    <EmbeddedResource Include="Models\HibernateMapping\SinhVien.hbm.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+    <PackageReference Include="NHibernate" Version="5.5.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+</Project>

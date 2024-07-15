@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="QuanLySVDSD"
+                   namespace="QuanLySVDSD.Models.DTO">
+	<class name="MonHoc" table="MonHoc">
+		<id name="Id" column="Id">
+			<generator class="native" />
+		</id>
+		<property name="MaMonHoc" column="MaMonHoc" />
+		<property name="TenMonHoc" column="TenMonHoc" />
+		<property name="SoTietHoc" column="SoTietHoc" />
+	</class>
+</hibernate-mapping>

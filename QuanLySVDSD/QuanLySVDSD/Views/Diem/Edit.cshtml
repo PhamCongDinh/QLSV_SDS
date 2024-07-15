@@ -1,0 +1,136 @@
+﻿@* @model QuanLySVDSD.Models.DTOUpdate.DiemDTOUp
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+
+<h4>Sửa điểm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiemQuaTrinh" class="control-label"></label>
+                <input asp-for="DiemQuaTrinh" class="form-control" />
+                <span asp-validation-for="DiemQuaTrinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiemThanhPhan" class="control-label"></label>
+                <input asp-for="DiemThanhPhan" class="form-control" />
+                <span asp-validation-for="DiemThanhPhan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+</body>
+</html>
+ *@
+ @model QuanLySVDSD.Models.DTOUpdate.DiemDTOUp
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sửa điểm</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Sử dụng Bootstrap cho giao diện -->
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: auto;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .btn-submit {
+            background-color: #007bff;
+            color: white;
+        }
+
+            .btn-submit:hover {
+                background-color: #0056b3;
+            }
+
+        .btn-back {
+            color: #007bff;
+        }
+
+            .btn-back:hover {
+                text-decoration: none;
+                color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h4 class="text-center">Sửa điểm</h4>
+        <hr />
+        <form asp-action="Edit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" hidden>
+                <label asp-for="Id" class="control-label">ID</label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiemQuaTrinh" class="control-label">Điểm Quá Trình</label>
+                <input asp-for="DiemQuaTrinh" class="form-control" />
+                <span asp-validation-for="DiemQuaTrinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiemThanhPhan" class="control-label">Điểm Thành Phần</label>
+                <input asp-for="DiemThanhPhan" class="form-control" />
+                <span asp-validation-for="DiemThanhPhan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-submit">Lưu</button>
+            </div>
+        </form>
+        <div class="text-center">
+            <a asp-action="Index" class="btn btn-back">Quay lại danh sách</a>
+        </div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

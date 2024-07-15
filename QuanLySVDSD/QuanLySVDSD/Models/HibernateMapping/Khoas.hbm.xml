@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="QuanLySVDSD"
+                   namespace="QuanLySVDSD.Models.DTO">
+	<class name="Khoas" table="Khoas">
+		<id name="Id" column="Id">
+			<generator class="native" />
+		</id>
+		<property name="MaKhoas" column="MaKhoas" />
+		<property name="TenKhoas" column="TenKhoas" />
+	</class>
+</hibernate-mapping>

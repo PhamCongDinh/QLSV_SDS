@@ -1,0 +1,48 @@
+﻿@model IList<QuanLySVDSD.Models.DTORead.SinhVienDTOR>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+}
+
+<h1>Danh sách sinh viên</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã Sinh Viên</th>
+            <th>Tên Sinh Viên</th>
+            <th>Ngày Tháng Năm Sinh</th>
+            <th>Giới Tính</th>
+            <th>Lớp</th>
+            <th>Khóa</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sinhVien in Model)
+        {
+            <tr>
+                <td>@sinhVien.MaSinhVien</td>
+                <td>@sinhVien.TenSinhVien</td>
+                <td>@sinhVien.NgayThangNamSinh</td>
+                <td>
+                    @if (sinhVien.GioiTinh == 1)
+                    {
+                        <text>Nam</text>
+                    }
+                    else if (sinhVien.GioiTinh == 0)
+                    {
+                        <text>Nữ</text>
+                    }
+                </td>
+                <td>@sinhVien.Lop?.TenLop</td>
+                <td>@sinhVien.Khoa?.TenKhoas</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@sinhVien.Id" style="color:aqua">Sửa</a>|
+                    <a asp-action="Details" asp-route-id="@sinhVien.Id" style="color:yellow">Chi Tiết</a>|
+                    <a asp-action="Delete" asp-route-id="@sinhVien.Id" style="color:red">Xóa</a>
+                 </td>
+            </tr>
+        }
+    </tbody>
+</table>

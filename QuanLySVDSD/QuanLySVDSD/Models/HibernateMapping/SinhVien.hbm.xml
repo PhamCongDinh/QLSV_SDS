@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="QuanLySVDSD"
+                   namespace="QuanLySVDSD.Models.DTO">
+	<class name="SinhVien" table="SinhVien">
+		<id name="Id" column="Id">
+			<generator class="native" />
+		</id>
+		<property name="MaSinhVien" column="MaSinhVien" />
+		<property name="TenSinhVien" column="TenSinhVien" />
+		<property name="GioiTinh" column="GioiTinh" />
+		<property name="NgayThangNamSinh" column="NgayThangNamSinh" />
+		<property name="Id_Lop" column="Id_Lop" />
+		<property name="Id_Khoas" column="Id_Khoas" />
+	</class>
+</hibernate-mapping>
